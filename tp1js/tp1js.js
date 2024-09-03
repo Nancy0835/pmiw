@@ -9,8 +9,8 @@ let alto;
 let ancho;
 let cantidadCuad;  //Grilla
 let stroke;
-let sinGrilla = (x, y) => {
-  if (x <= y) {
+let sinGrilla = (i , j) => {
+  if (i <= j) {
     return  false
   } else {
     return true
@@ -18,7 +18,7 @@ let sinGrilla = (x, y) => {
 }
 
 function preload () {
-  loadImage ('assets/BridgetRiley.jpg');
+  loadImage ("assets/BridgetRiley.jpg");
 }
 function setup() {
   createCanvas(800, 400);
@@ -29,6 +29,7 @@ function setup() {
 
 function draw() {
   background (255);
+  image (imagen, 0, 0 , whidth/2,height/2);
 }
 for (let i = 0; i < cantidadCuad; i++) {  // ciclo for
   for (let j = 0; j < cantidadCuad; j++) { //estructura repetitiva anidada

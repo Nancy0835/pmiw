@@ -1,0 +1,34 @@
+function preload() {
+  img[0] = loadImage('data/0.png');
+  img[1] = loadImage('data/1.png');
+  img[2] = loadImage('data/2.png');
+  img[3] = loadImage('data/3.png');
+  img[4] = loadImage('data/4.png');
+  img[5] = loadImage('data/5.png');
+  img[6] = loadImage('data/6.png');
+  img[7] = loadImage('data/7.png');
+  img[8] = loadImage('data/8.png');
+  img[9] = loadImage('data/9.png');
+  img[10] = loadImage('data/10.png');
+  img[11] = loadImage('data/11.png');
+  img[12] = loadImage('data/12.png');
+  img[13] = loadImage('data/13.png');
+  img[14] = loadImage('data/14.png');
+  img[15] = loadImage('data/15.png');
+  img[16] = loadImage('data/16.png');
+  img[17] = loadImage('data/17.png');
+  img[18] = loadImage('data/18.png');
+  img[19] = loadImage('data/19.png');
+  img[20] = loadImage('data/20.png');
+  img[21] = loadImage('data/21.png');
+  img[22] = loadImage('data/22.png');
+  img[23] = loadImage('data/23.png');
+  img[24] = loadImage('data/24.png');
+  img[25] = loadImage('data/25.png');
+  img[26] = loadImage('data/sonido.png');
+  img[27] = loadImage('data/creditos.png');
+  img[28] = loadImage('data/inicio.png');
+  img[29] = loadImage('data/derecha.png');
+  img[30] = loadImage('data/izquierda.png');
+  img[31] = loadImage ('data/fin.png');
+}
